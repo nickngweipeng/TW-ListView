@@ -30,8 +30,8 @@ public class SecondActivity extends AppCompatActivity {
         tvYear.setText(year);
 
         module = new ArrayList<Module>();
-        module.add(new Module("C208", false));
-        module.add(new Module("C200", true));
+        module.add(new Module("C208", true));
+        module.add(new Module("C200", false));
         module.add(new Module("C346", true));
 
         aa = new ModuleAdapter(this, R.layout.row,module);
